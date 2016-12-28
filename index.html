@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>Fuse Society</title>
-        <link rel="shortcut icon" href="/images/favicon.png">
+        <link href="/images/favicon.png" rel="shortcut icon" >
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -15,6 +15,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
+        <a href="#" class="back-to-top">Back to Top</a>
 		<div id="page-wrapper">
             
 			<!-- Header -->
@@ -24,8 +25,6 @@
                             
 							<header>
 								<h1><a href="index.html" id="logo">Welcome</a></h1>
-								<hr />
-								<p>Another fine freebie by HTML5 UP</p>
 							</header>
 							<footer>
 								<a href="#banner" class="button circled scrolly">Learn More</a>
@@ -41,16 +40,33 @@
 								<li>
 									<a href="#">About Us</a>
 									<ul>
+                                        <li><a href="#">Our History</a></li>
 										<li><a href="#">Our Mission</a></li>
 										<li><a href="#">Our Vision</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li><a href="#">Veroeros feugiat</a></li>
+										<li><a href="#">Affiliates</a></li>
+										<li><a href="#">Gallery</a></li>
 									</ul>
 								</li>
-								<li><a href="left-sidebar.html">Team</a></li>
+								<li>
+                                    <a href="#">Team</a>
+                                    <ul>
+                                        <li><a href="#">Executives</a></li>
+										<li><a href="#">Ambassador</a></li>
+										<li><a href="#">School Head</a></li>
+										<li><a href="#">Apply</a></li>
+										<li><a href="#">Positions</a></li>
+									</ul>
+                                </li>
 								<li><a href="right-sidebar.html">Events</a></li>
-								<li><a href="no-sidebar.html">Get Involved</a></li>
-                                <li><a href="no-sidebar.html">Contact Us</a></li>
+								<li><a href="no-sidebar.html">Get Involved</a>
+                                <ul>
+                                        <li><a href="#">Donate</a></li>
+										<li><a href="#">Join us</a></li>
+										<li><a href="#">Tickets</a></li>
+										<li><a href="#">Merchandise</a></li>
+									</ul>
+                                    </li>
+                                <li><a href="contact.html">Contact Us</a></li>
 							</ul>
 						</nav>
 
@@ -60,11 +76,7 @@
 				<section id="banner">
 					<header>
 						<h2>Building the next generation of business leaders</h2>
-						<p>
-							A (free) responsive site template by <a href="http://html5up.net">HTML5 UP</a>.
-							Built on <strong>skel</strong> and released under the <a href="http://html5up.net/license">CCA</a> license.
-						</p>
-					</header>
+                    </header>
 				</section>
 
 			<!-- Carousel 
@@ -156,34 +168,53 @@
 -->
 			<!-- Main -->
 				<div class="wrapper style2">
-
+                    <center>
 					<article id="main" class="container special">
-						<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+                        
+                        <img src="/images/home1.JPG" id="regimg" alt="" />
+                            
 						<header>
-							<h2><a href="#">Sed massa imperdiet magnis</a></h2>
 							<p>
-								Sociis aenean eu aenean mollis mollis facilisis primis ornare penatibus aenean. Cursus ac enim
-								pulvinar curabitur morbi convallis. Lectus malesuada sed fermentum dolore amet.
+								We are FUSE Society, a youth-led organization that exists to bridge the growing divide between academia and the real world. We provide the means for thousands of secondary students across Canada to develop the skills and confidence necessary to succeed in the world of business. 
 							</p>
-						</header>
-						<p>
-							Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
-							posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
-							sit arcu sociis. Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam
-							mus lacinia lobortis phasellus suscipit. Fermentum lobortis non tristique ante proin sociis accumsan
-							lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum
-							consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue
-							interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia
-							natoque aenean scelerisque.
-						</p>
+                        </header>
 						<footer>
 							<a href="#" class="button">Continue Reading</a>
 						</footer>
 					</article>
-
+                    </center>
 				</div>
+            
+            <!-- Stats -->
+            <div class="wrapper style1">
+                
+                    <article id="main" class="container special">
+                        <div class="row">
+                    <header>
+                        <h2 id="stat">Building the Next Generation of Business Leaders</h2>
+                    <p id="stat">We are FUSE Society, a youth-led organization that exists to bridge the growing divide between academia and the real world. We provide the means for thousands of secondary students across Canada to develop the skills and confidence necessary to succeed in the world of business. </p>
+                        </header>
+                            </div>
+                    <hr/>
+                        <div class="row" id="stat">
+                            <div class="4u">
+                                <h3 id="stat">2</h3>
+                                <p id="stat">States</p>
+                                   
+                            </div>
+                            <div class="4u">
+                                <h3 id="stat">28</h3>
+                                <p id="stat">Schools</p>
+                            </div>
+                            <div class="4u">
+                                <h3 id="stat">44</h3>
+                                <p id="stat">Members</p>
+                            </div>
+                        </div>
+                </article>   
+            </div>
 
-			<!-- Features -->
+			<!-- Features
 				<div class="wrapper style1">
 
 					<section id="features" class="container special">
@@ -225,7 +256,7 @@
 						</div>
 					</section>
 
-				</div>
+				</div> -->
 
 			<!-- Footer -->
 				<div id="footer">
@@ -342,20 +373,21 @@
 								<!-- Contact -->
 									<section class="contact">
 										<header>
-											<h3>Nisl turpis nascetur interdum?</h3>
+											<h3>Couldn’t find what you’re looking for? Send us an inquiry!</h3>
 										</header>
-										<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
+										<p> We would love to hear from you. </p>
 										<ul class="icons">
 											<li><a href="http://www.facebook.com/fusesociety" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 											<li><a href="https://www.instagram.com/fusesociety/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 											<li><a href="https://www.linkedin.com/company/fuse-society" target="_blank" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+                                            <li><a href="mailto:contact@fusesociety.com" class="fa fa-envelope"></a></li>
 										</ul>
 									</section>
 
 								<!-- Copyright -->
 									<div class="copyright">
 										<ul class="menu">
-											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+											<li>&copy;FUSE Society. All rights reserved. </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 										</ul>
 									</div>
 
@@ -376,6 +408,25 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+            <script type="text/javascript">
+                $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+                
+                var amountScrolled = 300;
 
+                $(window).scroll(function() {
+	               if ( $(window).scrollTop() > amountScrolled ) {
+                       $('a.back-to-top').fadeIn('slow');
+	               } else {
+		               $('a.back-to-top').fadeOut('slow');
+	               }
+                });
+                
+                $('a.back-to-top').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+            </script>
 	</body>
 </html>
